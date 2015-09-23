@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "showLinkedList.h"
+#include "simpleLinkedList.h"
 
 sizeVoid_t removeSearch(LinkedList **list, sizeInt_t element) {
 	if(*list == NULL) {
